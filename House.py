@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 st.set_page_config(page_title="House Price Prediction" ,layout="wide", page_icon="🏡")
-st.markdown('<h2 style = "background-color: #e6ffff; color :white; text-shadow: 2px 2px 5px black;", align="center">House Price Prediction</h2>',unsafe_allow_html=True)
+st.markdown('<h2 style = "background-color: #F0F2F6; color :white; text-shadow: 2px 2px 5px black;", align="center">House Price Prediction</h2>',unsafe_allow_html=True)
 selected = option_menu(
     menu_title=None,
     options=["Data Visulization", "Home", "Prediction"],
