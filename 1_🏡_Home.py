@@ -14,11 +14,11 @@ their combination with other factors decides whether they will increas or decrea
 To help us finding the relationsip between these attribute and the sale prices, here we have data of 
 1460 houses (sold). The dataset includes nealry all the factors that affect the sales price of a house 
 such as over all condition, neighbourhood, presence of basement and/or garage, etc. 
-I had perform exploratory data analysis to find out which factors affect the most. For the predictive
- modeling, first i used mulitple machine learning algorithms, then chose the one with the highest base 
+I had performed exploratory data analysis to find out which factors affect the most. For the predictive
+ modeling, first I used mulitple machine learning algorithms, then chose the one with the highest base 
  accuracy. After that I trained, evaluated and tuned the model with appropriate parameter values to keep
-   the Root Mean Square Error (RMSE) minimum. Now, in this web application I am using that trained & tuned 
-   model and the visuals that I had created during the process of exploratory data analysis. I tried to make
+   the Root Mean Square Error (RMSE) minimum. Now, in this web application, I am using that same trained & tuned 
+   model and the visuals that I had created during the process of exploratory data analysis in a jupyter notebook. I tried to make
      this web application as user-friendly as possible, but if you have any suggestions please feel free to
        contact.""")
 st.write("___")
