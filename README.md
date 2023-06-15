@@ -14,12 +14,12 @@ Predicting the sales price of the house is an important topic in real estate. Th
     b. Imputing missing values in numeric columns.<br>
     c. Scaling numeric columns in the range of [0,1].<br>
     d. Encoding the categorical columns.<br>
-    e. Splitting the dataset in training and validation dataset.
+    e. Splitting the dataset in training and validation datasets.
  3. K-Fold Cross Validation for checking the base accuracy of different models.
  4. Training, Evaluating and Tuning the best model(s) (one(s) with least RMSE).
- 5. Taking weighted average of best performing model to make predictions on the validation data so that it gives least RMSE.
+ 5. Taking a weighted average of the best-performing model to make predictions on the validation data so that it gives least RMSE.
  6. Making predictions on test data and submitting them for competition.
  7. Saving the model(s) and objects for future use.
- 8. Concluding the project in the notebook with summary and references.
- 9. Creating a streamlit web application that takes user inputs to predict the prices along with interactive visuals that help the user to understand the relationship between different attributes of a house and its sale price.
-    
+ 8. Concluding the project in the notebook with a summary and references.
+ 9. Creating a Streamlit web application that takes user inputs to predict the prices along with interactive visuals that help the user to understand the relationship between different attributes of a house and its sale price.
+ 10. Deploying the web application on `share.streamlit.io` for making it available for everyone.
