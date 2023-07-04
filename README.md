@@ -1,14 +1,14 @@
 <h1 align="center"> House Prices : Advanced Regression Techniques </h1>
 
 ### Introduction
-Predicting the sales price of the house is an important topic in real estate. There are various factors that affect the price of a house. Some of factors may cause increment in the price, some of them may cause decrement, while others are dependent on the one or more factors i.e. their combination with other factors decides whether they will increas or decrease the price. To help us finding the relationsip between these attribute and the sale prices, here we have data of 1460 houses (sold). The dataset includes nealry all the factors that affect the sales price of a house such as over all condition, neighbourhood, presence of basement and/or garage, etc. along with the sale price. I created this project for kaggle competition. It includes exploratory data analysis and predictive modeling. If you find this useful please give it a star. Thank You!
+Predicting the sales price of a house is an essential topic in real estate. There are various factors that affect the price of a home. Some of the factors may cause an increment in the price, some of them may cause decrement, while others are dependent on one or more factors i.e. their combination with other factors decides whether they will increase or decrease the price. To help us find the relationship between these attributes and the sale prices, here we have data on 1460 houses (sold). The dataset includes nearly all the factors that affect the sales price of a house such as overall condition, neighborhood, presence of basement and garage, etc. along with the sale price. I created this project for the Kaggle competition. It includes exploratory data analysis and predictive modeling. If you find this useful please give it a star. Thank You!
 
 ### Important Links
 [EDA & MLA](https://www.kaggle.com/code/prasadposture121/house-prices-prediction)
-<br>[Web Application](https://prasadposture-house-prices-advanced-regression-t-1--home-of41rn.streamlit.app/)
+<br>[Web Application](https://house-price-prediction-pp.streamlit.app/)
 
 ### Workflow
-1. Loading, Exploring and Visualizing the Data using Pandas, NumPy, Matplotlib, Seaborn and Plotly.
+1. Loading, Exploring, and Visualizing the Data using Pandas, NumPy, Matplotlib, Seaborn and Plotly.
 2. Preparing the dataset for training, which includes,<br>
     a. Identifying input & target columns and numeric & categorical columns.<br>
     b. Imputing missing values in numeric columns.<br>
