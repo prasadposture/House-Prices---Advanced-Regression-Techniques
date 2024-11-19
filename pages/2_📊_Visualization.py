@@ -109,14 +109,14 @@ with d:
                                                'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath', 'FullBath', 'HalfBath', 'BedroomAbvGr',
                                                'KitchenAbvGr', 'TotRmsAbvGrd', 'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea',
                                                'WoodDeckSF', 'OpenPorchSF', 'EnclosedPorch','3SsnPorch', 'ScreenPorch', 'PoolArea',
-                                               'MiscVal','MoSold','YrSold'], default=['SalePrice','OverallQual','OverallCond', 'YearBuilt'],max_selections=10)
+                                               'MiscVal','MoSold','YrSold'], default=['SalePrice','OverallQual','OverallCond', 'YearBuilt'],max_selections=12)
     option9 = st.multiselect('Correlation with (Rows)',['SalePrice', 'MSSubClass', 'LotFrontage', 'LotArea', 'OverallQual',
                                                'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea', 'BsmtFinSF1',
                                                'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF', '2ndFlrSF', 'LowQualFinSF',
                                                'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath', 'FullBath', 'HalfBath', 'BedroomAbvGr',
                                                'KitchenAbvGr', 'TotRmsAbvGrd', 'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea',
                                                'WoodDeckSF', 'OpenPorchSF', 'EnclosedPorch','3SsnPorch', 'ScreenPorch', 'PoolArea',
-                                               'MiscVal','MoSold','YrSold'], default=['SalePrice','OverallQual','OverallCond', 'YearBuilt'],max_selections=10)
+                                               'MiscVal','MoSold','YrSold'], default=['SalePrice','OverallQual','OverallCond', 'YearBuilt'],max_selections=12)
     fig6 = plt.figure()
     sns.heatmap(df.corr()[option8].loc[option9], annot=True)
     st.pyplot(fig6)
