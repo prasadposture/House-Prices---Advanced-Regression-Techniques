@@ -118,5 +118,5 @@ with d:
                                                'WoodDeckSF', 'OpenPorchSF', 'EnclosedPorch','3SsnPorch', 'ScreenPorch', 'PoolArea',
                                                'MiscVal','MoSold','YrSold'], default=['SalePrice','OverallQual','OverallCond', 'YearBuilt'],max_selections=12)
     fig6 = plt.figure()
-    sns.heatmap(df.corr()[option8].loc[option9], annot=True)
+    sns.heatmap(df.corr()[option8].loc[option9], annot=False)
     st.pyplot(fig6)
